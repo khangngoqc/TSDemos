@@ -7,7 +7,7 @@
 5. Write a program to find the largest digit in a given number using a while loop.
 6. Write a program to check if a given number is a palindrome using a while loop. 
 */
-
+console.log("=========== While loop ============");
 let i = 1;
 let sum = 0
 
@@ -124,3 +124,24 @@ while (remaining4 > 0) {
         console.log("6. " + reversedInput4 + " is not a palindrome.");
     }
 }
+
+
+console.log("=========== Do While loop ============");
+/*
+Do-while loop
+7. Write a program to print numbers from 1 to 10 using a do-while loop.
+8. Write a Java program that performs basic arithmetic operations (addition, subtraction,
+multiplication, and division) using a do-while loop until the user chooses to exit. 
+*/
+
+let i7 = 1;
+do {
+
+    console.log("7. " + i7);
+    i7++;
+
+} while (i7 <= 10);
+
+
+
+
